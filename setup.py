@@ -6,6 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'click',
+        'joblib',
         'dlhub_sdk',
         'foundry @ git+git://github.com/MLMI2-CSSI/foundry.git'
     ],
