@@ -7,7 +7,7 @@ setup(
     install_requires=[
         'click',
         'dlhub_sdk',
-        'foundry @ git+git://github.com/MLMI2-CSSI/foundry.git#egg=foundry'
+        'foundry @ git+git://github.com/MLMI2-CSSI/foundry.git'
     ],
     entry_points={
         'console_scripts': ['foundry = foundry_cli:install']
